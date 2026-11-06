@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 80" role="img" aria-label="Southern New Hampshire University">
+  <!-- Redrawn approximation of the SNHU Horizontal Primary Reversed logo (for Ink Blue backgrounds).
+       Replace with the official logo file when available. -->
+  <path d="M6 6 H56 V36 C56 54 44 66 31 74 C18 66 6 54 6 36 Z" fill="#00244e" stroke="#ffffff" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="M28 62 C21 54 22 45 27 39 C31 34 33 28 31 18 C38 26 38 35 34 41 C30 47 29 54 28 62 Z" fill="#fdb913"/>
+  <path d="M32 64 C31 56 34 50 38 45 C42 40 43 34 41 27 C46 34 46 43 42 49 C39 54 35 58 32 64 Z" fill="#009dea"/>
+  <g font-family="Inter, Arial, sans-serif" font-weight="600" font-size="19" fill="#ffffff">
+    <text x="72" y="26">Southern</text>
+    <text x="72" y="48">New Hampshire</text>
+    <text x="72" y="70">University</text>
+  </g>
+</svg>

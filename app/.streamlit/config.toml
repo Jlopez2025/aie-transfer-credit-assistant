@@ -1,0 +1,44 @@
+# SNHU brand theme (SNHU Brand Kit): Ink Blue + Golden Yellow lead, Inter type,
+# Parchment / True White surfaces, Warm Black body text.
+
+[server]
+address = "127.0.0.1"          # local only: the app can reach Azure keys and transcript data
+headless = true
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "light"
+primaryColor = "#00244e"               # Ink Blue: primary buttons (white text), selections, focus
+backgroundColor = "#ffffff"            # True White
+secondaryBackgroundColor = "#f4f0ec"   # Parchment: widget and input surfaces
+textColor = "#1d1c18"                  # Warm Black body text (ADA contrast)
+linkColor = "#00244e"                  # Ink Blue links, underlined
+linkUnderline = true
+borderColor = "#d9d1c7"                # tonal Parchment for hairlines
+dataframeHeaderBackgroundColor = "#f4f0ec"
+dataframeBorderColor = "#e4ddd5"
+baseRadius = "small"
+showWidgetBorder = true
+
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
+headingFont = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
+headingFontWeights = [800, 600, 600, 600, 600, 600]   # headline ExtraBold, subheads SemiBold
+
+# Status colors mapped onto the brand palette
+blueColor = "#00559a"                  # Impact Blue: equivalent, info
+blueTextColor = "#00244e"              # Ink Blue for :blue[] text (headline) and blue badge text
+yellowColor = "#fdb913"                # Golden Yellow: accents
+orangeColor = "#e28e03"                # Deep Yellow: partial, warnings
+grayColor = "#5c5850"
+
+chartCategoricalColors = ["#00244e", "#fdb913", "#009dea", "#e28e03", "#0a3370", "#ffd04d", "#00559a"]
+
+[theme.sidebar]
+backgroundColor = "#00244e"            # Ink Blue
+secondaryBackgroundColor = "#0a3370"   # Heritage Blue: uploader surface
+textColor = "#ffffff"                  # True White on Ink Blue
+borderColor = "#00559a"
+primaryColor = "#fdb913"               # Golden Yellow accents on Ink Blue
+linkColor = "#fdb913"

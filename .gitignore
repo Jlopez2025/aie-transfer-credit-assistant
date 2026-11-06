@@ -1,0 +1,23 @@
+.env
+*.pkl
+verdict_cache.json
+data/
+__pycache__/
+
+# Built from student transcripts (FERPA): keep out of the repository
+Transcript_*.csv
+Transcript_*.md
+sample_transcript*.csv
+
+# Sending-school catalogs scraped from school sites and CollegeTransfer.net; outputs built from them
+/*.jsonl
+/*_College.md
+/*_University.md
+/University_of_*.md
+/*_University_*.md
+BHCC_*.csv
+BHCC_*.xlsx
+
+# Public IPEDS download (re-download from nces.ed.gov) and survey run log
+ipeds_raw/
+*.log
